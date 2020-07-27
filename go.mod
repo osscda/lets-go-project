@@ -1,3 +1,3 @@
-module github.com/arschles/letsgo
+module github.com/osscda/lets-go-project
 
 go 1.14

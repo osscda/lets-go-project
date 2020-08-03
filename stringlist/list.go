@@ -22,9 +22,26 @@ func NewList(firstElement string) Item {
 		value: firstElement,
 		// we don't actually need this, because it defaults to nil
 		// if we don't pass it
+		// NOTE: if we ever need to use this pointer in any method,
+		// we _always_ need to check if it's nil beforehand
 		next: nil, // we need the comma at the end
 	}
 	// TODO: next week, continue our pointer journey here
 
 	return itemToReturn
+}
+
+// GetValue returns the string at the given index. It returns
+// an empty string ("") if there is no element at that index
+// (e.g. the list is not as long as the index or you passed a
+// negative number). The list starts at index 0, so if you passed
+// in 5 for example, you are telling GetValue to get the sixth item
+// of the list
+func (item Item) GetValue(idx int) string {
+	// loop all the way
+	currentItem := item
+	for currentIndex := 0; currentIndex < idx; currentIndex++ {
+
+	}
+	return currentItem.value
 }

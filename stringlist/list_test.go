@@ -13,10 +13,10 @@ func TestNewList(t *testing.T) {
 	if listElt0 != eltAtIndex0 {
 		t.Error("Expected elt at index 0: ", listElt0, "but got ", eltAtIndex0)
 	}
-	const listElt2 = "listelt2"
-	eltAtIndex2 := theList.GetValue(2)
-	if listElt2 != eltAtIndex2 {
-		t.Error("Expected elt at index 2: ", listElt2, "but got ", eltAtIndex2)
+	const listElt1 = "listelt1"
+	theList.Append(listElt1)
+	eltAtIndex1 := theList.GetValue(1)
+	if listElt1 != eltAtIndex1 {
+		t.Error("Expected elt at index 1: ", listElt1, "but got ", eltAtIndex1)
 	}
-
 }

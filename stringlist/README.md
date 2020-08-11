@@ -24,15 +24,18 @@ You can do several operations on lists:
 - Add to the list - you need just the value of the new item (sometimes also called `append` or `prepend`, depending on where you want to add it in the list)
 - Replace an item in the list - you need the index and the _new_ value. This is also called "set", because you're not adding anything new, just setting a new value for an existing item
 - Delete from the list - you also just need the index of the item you want to delete
-
-(TODO: we should add an "insert" as well - meaning you want to add a _new_ element into the list, and shift everything after that element to the right)
-
+- Insert into the list - add a _new_ element into the list, and shift everything after that element to the right
 
 
+- Introduced initial structure of the list (AKA `Item`)
+- Built "constructor" for items (AKA `func NewList()`)
+- Built `getValue(index int)` - function to get a specific item at a specific index
+- Build `Append(...)`, based on `getValue` that we did previously
 
 TODOs:
 
-- Introduce initial structure of the list (AKA `Item`)
-- Build "constructor" for items (AKA `func NewList()`)
-- Build `getItem(index int)` - function to get a specific item at a specific index
-- Build `Get(index int)`, `Set(...)`, and `Append(...)`, based on `getItem` that we did previously
+- Build `Set(...)`
+- Build `Insert(...)`
+- Add Tests
+- Add documentation
+

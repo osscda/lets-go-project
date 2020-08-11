@@ -39,3 +39,6 @@ TODOs:
 - Add Tests
 - Add documentation
 
+## About this Project
+
+This is a project built in collaboration with the community on the live stream "Let's Go" with @arschles and @iennae. For schedule details check out the [Let's Go repository](https://github.com/osscda/lets-go-stream). If you'd like to contribute an idea for a topic or project, submit [an issue](https://github.com/osscda/lets-go-stream/issues). 

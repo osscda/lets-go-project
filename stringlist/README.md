@@ -30,14 +30,15 @@ You can do several operations on lists:
 - Introduced initial structure of the list (AKA `Item`)
 - Built "constructor" for items (AKA `func NewList()`)
 - Built `getValue(index int)` - function to get a specific item at a specific index
-- Build `Append(...)`, based on `getValue` that we did previously
+- Built `Append(...)`, based on `getValue` that we did previously
 
 TODOs:
 
-- Build `Set(...)`
+- Build `Replace(...)`
 - Build `Insert(...)`
 - Add Tests
 - Add documentation
+- Update NewList to allow creating an empty list. 
 
 ## About this Project
 

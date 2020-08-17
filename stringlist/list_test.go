@@ -20,3 +20,30 @@ func TestNewList(t *testing.T) {
 		t.Error("Expected elt at index 1: ", listElt1, "but got ", eltAtIndex1)
 	}
 }
+
+func TestReplace(t *testing.T) {
+	elements := []string{
+		"listelt1",
+		"listelt2",
+		"listelt3",
+	}
+	theList := stringlist.NewList("listelt0")
+	// this loops through the entire elements list ("slice" in Go)
+	//
+	// add all of them to our list
+	for _, elt := range elements {
+		theList.Append(elt)
+	}
+
+	// now replace the second item
+	theList.Replace(1, "newlistelt1")
+
+	newSecondElt := theList.GetValue(1)
+	if newSecondElt != "newlistelt1" {
+		t.Errorf(
+			"Expected 'newlistelt1' in index 1, got %s",
+			newSecondElt,
+		)
+	}
+
+}

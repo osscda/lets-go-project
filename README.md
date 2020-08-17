@@ -1,4 +1,9 @@
 # lets-go-project
-The project we're working on in the Let's Go! live coding series
+The projects we're working on in the Let's Go! live coding series
 
-If you're looking for the repository that has each week's descriptions and plans, please see [osscda/lets-go-stream](https://github.com/osscda/lets-go)
+* httpserver - Really simple http server and first examples of testing in Go
+* stringlist - Implementing a library and learning about pointers while also expanding knowledge about testing in Go. 
+
+## About this Repository
+
+This is a collection of projects built in collaboration with the community on the live stream "Let's Go" with @arschles and @iennae. For schedule details check out the [Let's Go repository](https://github.com/osscda/lets-go-stream). If you'd like to contribute an idea for a topic or project, submit [an issue](https://github.com/osscda/lets-go-stream/issues). 

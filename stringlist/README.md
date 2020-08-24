@@ -37,6 +37,7 @@ You can do several operations on lists:
 
 TODOs:
 
+- Build `Delete(...)`
 - Add Tests
 - Update NewList to allow creating an empty list. 
 

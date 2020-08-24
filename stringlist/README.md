@@ -31,13 +31,13 @@ You can do several operations on lists:
 - Built "constructor" for items (AKA `func NewList()`)
 - Built `getValue(index int)` - function to get a specific item at a specific index
 - Built `Append(...)`, based on `getValue` that we did previously
+- Built `Replace(...)`
+- Built `Insert(...)`
+- Add documentation
 
 TODOs:
 
-- Build `Replace(...)`
-- Build `Insert(...)`
 - Add Tests
-- Add documentation
 - Update NewList to allow creating an empty list. 
 
 ## About this Project
